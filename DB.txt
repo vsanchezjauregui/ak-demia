@@ -1,0 +1,39 @@
+User    = id6288252_vsanchezjauregui
+DB_name = id6288252_akdemia
+
+
+Tablas
+Usuarios        Facultades      Carreras        Materias        Cursos              Estudiantes         Profesores      Requisitos_Carreras     Requisitos_materias     Requisitos_cursos
+
+Correo          Nombre          Nombre          Nombre          Nombre              Nombre              Nombre          Carrera                 Materia                 Curso
+Nombre          Descripcion     Descripcion     Descipcion      Descripcion         Apellido            Apellido        Nivel_previo            Materia_req             curso_req
+Password        -Carreras       +Facultad        Carrera         Duracion_sem        Correo              Correo          especialidad_previa     Creditos_req            Tipo(suf/nec)
+Tipo            +Decano         Nivel           Horas_p         Duracion_h/s        Cedula              Cedula          Tipo(suf/nec)           Tipo(suf/nec)
+                                Modalidad       Horas_t         Creditos            Genero              Genero
+                                Duracion        Horas_l         Programa            Nacimiento          Telefono_1
+                                Requisitos      Creditos        Planes_leccion      Telefono_1          Telefono_2
+                                Jefe_carrera    Programa        Plan_evaluacion     Telefono_2          Nacionalidad
+                                Materias        Planes_leccion                      Nacionalidad        Nivel_academico
+                                                Plan_evaluacion                     Ultimo_titulo       Provincia
+                                                                                    Ano_ultim_tit       Canton
+                                                                                    Centro_estudios     Distrito
+                                                                                    Provincia           Senas
+                                                                                    Canton
+                                                                                    Distrito
+                                                                                    Senas
+                                                                                    Estatus(act/inact/grad)
+                                                                                    
+                                                
+
+Materias_ab         Cursos_ab       Carreras_mat        Materias_mat    Cursos_mat      Provincias      Cantones        Distritos
+
+Materia             Curso           Carrera             Materia_ab      Curso_ab        Nombre          Nombre          Nombre
+Profesor            Profesor        Estudiante          Estudiante      Estudiante                      Provincia       Canton
+Periodo             Fecha_ini       Fecha_mat           Estado(g/p/c)   Estado(g/p/c)                                   Provincia
+Planes_leccion      Fecha_fin       Estado(c/ic/g)      Nota            Nota
+Plan_evaluacion     Planes_lec
+Estado(a/c)         Plan_eval
+                    Estado(a/c)
+                    
+-Fuera
++Llave foranea
